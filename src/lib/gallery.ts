@@ -9,12 +9,12 @@ export interface GalleryImage {
 const KEY = "yzd_gallery_v1";
 
 export const DEFAULT_GALLERY: GalleryImage[] = [
-  { id: "d1", src: "/images/farm.jpg", alt: "農場全景" },
-  { id: "d2", src: "/images/farmer.jpg", alt: "農夫採收" },
-  { id: "d3", src: "/images/veg1.jpg", alt: "時令蔬菜" },
-  { id: "d4", src: "/images/veg4.jpg", alt: "新鮮採摘" },
-  { id: "d5", src: "/images/veg5.jpg", alt: "清洗蔬菜" },
-  { id: "d6", src: "/images/veg3.jpg", alt: "蔬菜菜籃" },
+  { id: "d1", src: "/VegToDoor/images/farm.jpg", alt: "農場全景" },
+  { id: "d2", src: "/VegToDoor/images/farmer.jpg", alt: "農夫採收" },
+  { id: "d3", src: "/VegToDoor/images/veg1.jpg", alt: "時令蔬菜" },
+  { id: "d4", src: "/VegToDoor/images/veg4.jpg", alt: "新鮮採摘" },
+  { id: "d5", src: "/VegToDoor/images/veg5.jpg", alt: "清洗蔬菜" },
+  { id: "d6", src: "/VegToDoor/images/veg3.jpg", alt: "蔬菜菜籃" },
 ];
 
 let cache: GalleryImage[] = load();
