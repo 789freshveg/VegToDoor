@@ -21,14 +21,14 @@ function SocialPill({ label, icon }: { label: string; icon: React.ReactNode }) {
 }
 
 const posts = [
-  { img: "/images/veg1.jpg", caption: "今季第一造菜心，新鮮採摘 ☀️", likes: 248, comments: 18 },
-  { img: "/images/veg2.jpg", caption: "芥蘭當造，爽甜無渣", likes: 192, comments: 12 },
-  { img: "/images/veg3.jpg", caption: "農場直送到家 📦", likes: 312, comments: 27 },
-  { img: "/images/veg4.jpg", caption: "本地農夫嘅心血，每一棵都係故事", likes: 156, comments: 9 },
-  { img: "/images/veg5.jpg", caption: "今期菜包開箱 🥬", likes: 421, comments: 35 },
-  { img: "/images/veg6.jpg", caption: "清晨嘅農場，露水仲未乾", likes: 287, comments: 21 },
-  { img: "/images/farm.jpg", caption: "香港仲有好多有心種嘅人", likes: 198, comments: 14 },
-  { img: "/images/farmer.jpg", caption: "農夫阿權同佢嘅芥蘭 🌱", likes: 365, comments: 29 },
+  { img: "/VegToDoor/images/veg1.jpg", caption: "今季第一造菜心，新鮮採摘 ☀️", likes: 248, comments: 18 },
+  { img: "/VegToDoor/images/veg2.jpg", caption: "芥蘭當造，爽甜無渣", likes: 192, comments: 12 },
+  { img: "/VegToDoor/images/veg3.jpg", caption: "農場直送到家 📦", likes: 312, comments: 27 },
+  { img: "/VegToDoor/images/veg4.jpg", caption: "本地農夫嘅心血，每一棵都係故事", likes: 156, comments: 9 },
+  { img: "/VegToDoor/images/veg5.jpg", caption: "今期菜包開箱 🥬", likes: 421, comments: 35 },
+  { img: "/VegToDoor/images/veg6.jpg", caption: "清晨嘅農場，露水仲未乾", likes: 287, comments: 21 },
+  { img: "/VegToDoor/images/farm.jpg", caption: "香港仲有好多有心種嘅人", likes: 198, comments: 14 },
+  { img: "/VegToDoor/images/farmer.jpg", caption: "農夫阿權同佢嘅芥蘭 🌱", likes: 365, comments: 29 },
 ];
 
 export default function Seasonal() {
