@@ -22,7 +22,7 @@ export default function Hero() {
       {/* Full-bleed background image — farm wide shot */}
       <div className="absolute inset-0">
         <img
-          src="/images/farm.jpg"
+          src="/VegToDoor/images/farm.jpg"
           alt="香港本地農場"
           className="h-full w-full object-cover"
         />
