@@ -61,7 +61,7 @@ export default function About() {
               className="mt-8 overflow-hidden rounded-3xl border border-brand-700/10 bg-white shadow-md"
             >
               <div className="relative h-40 overflow-hidden md:h-44">
-                <img src="/VegToDoor/images/farm.jpg" alt="合作農場" className="h-full w-full object-cover" />
+                <img src="/VegToDoor/VegToDoor/images/farm.jpg" alt="合作農場" className="h-full w-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                 <div className="absolute bottom-4 left-5 text-white">
                   <div className="text-sm font-bold uppercase tracking-widest text-lime-soft">
